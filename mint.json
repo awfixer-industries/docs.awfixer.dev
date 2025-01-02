@@ -7,9 +7,9 @@
   },
   "favicon": "/gold.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#D3A630",
+    "light": "#D3A630",
+    "dark": "#D3A630",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
