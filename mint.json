@@ -1,85 +1,85 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Axyl Bot Documentation",
-  "logo": {
-    "dark": "/gold.png",
-    "light": "/gold.png"
-  },
-  "favicon": "/gold.png",
-  "colors": {
-    "primary": "#D3A630",
-    "light": "#D3A630",
-    "dark": "#D3A630",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
-  },
-  "topbarLinks": [
-    {
-      "name": "Reddit",
-      "url": "https://reddit.com/r/awfixer"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Support",
-    "url": "https://discord.gg/awfixer"
-  },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation Repo",
-      "icon": "github",
-      "url": "https://github.com/axylbot/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://discord.gg/awfixer"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://awfixer.blog"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
-    }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/awfixer",
-    "github": "https://github.com/axylbot",
-    "discord": "https://discord.gg/awfixer"
-  }
+	"$schema": "https://mintlify.com/schema.json",
+	"name": "Axyl Bot Documentation",
+	"logo": {
+		"dark": "/awfixer.png",
+		"light": "/awfixer.png"
+	},
+	"favicon": "/awfixer.png",
+	"colors": {
+		"primary": "#D3A630",
+		"light": "#D3A630",
+		"dark": "#D3A630",
+		"anchors": {
+			"from": "#0D9373",
+			"to": "#07C983"
+		}
+	},
+	"topbarLinks": [
+		{
+			"name": "Reddit",
+			"url": "https://reddit.com/r/awfixer"
+		}
+	],
+	"topbarCtaButton": {
+		"name": "Support",
+		"url": "https://discord.gg/awfixer"
+	},
+	"tabs": [
+		{
+			"name": "API Reference",
+			"url": "api-reference"
+		}
+	],
+	"anchors": [
+		{
+			"name": "Documentation Repo",
+			"icon": "github",
+			"url": "https://github.com/axylbot/docs"
+		},
+		{
+			"name": "Community",
+			"icon": "discord",
+			"url": "https://discord.gg/awfixer"
+		},
+		{
+			"name": "Blog",
+			"icon": "newspaper",
+			"url": "https://awfixer.blog"
+		}
+	],
+	"navigation": [
+		{
+			"group": "Get Started",
+			"pages": ["introduction", "quickstart", "development"]
+		},
+		{
+			"group": "Essentials",
+			"pages": [
+				"essentials/markdown",
+				"essentials/code",
+				"essentials/images",
+				"essentials/settings",
+				"essentials/navigation",
+				"essentials/reusable-snippets"
+			]
+		},
+		{
+			"group": "API Documentation",
+			"pages": ["api-reference/introduction"]
+		},
+		{
+			"group": "Endpoint Examples",
+			"pages": [
+				"api-reference/endpoint/get",
+				"api-reference/endpoint/create",
+				"api-reference/endpoint/delete"
+			]
+		}
+	],
+	"footerSocials": {
+		"x": "https://x.com/awfixer",
+		"github": "https://github.com/axylbot",
+		"discord": "https://discord.gg/awfixer"
+	}
 }
