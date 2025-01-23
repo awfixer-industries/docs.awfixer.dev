@@ -26,13 +26,13 @@
 	},
 	"topbarLinks": [
 		{
-			"name": "Community",
-			"url": "https://mintlify.com/community"
+			"name": "Forum",
+			"url": "https://forum.awfixer.dev"
 		}
 	],
 	"topbarCtaButton": {
-		"name": "Get Started",
-		"url": "https://mintlify.com/start"
+		"name": "Support",
+		"url": "https://discord.gg/awfixer"
 	},
 	"codeBlock": {
 		"mode": "auto"
@@ -263,38 +263,29 @@
 	],
 	"footer": {
 		"socials": {
-			"x": "https://x.com/mintlify",
-			"linkedin": "https://www.linkedin.com/company/mintlify",
-			"github": "https://github.com/mintlify",
-			"slack": "https://mintlify.com/community"
+			"x": "https://x.com/awfixer",
+			"discord": "https://discord.gg/awfixer",
+			"github": "https://github.com/awfixer-org"
 		},
 		"links": [
 			{
 				"title": "Resources",
 				"links": [
 					{
-						"label": "Customers",
-						"url": "https://mintlify.com/customers"
-					},
-					{
 						"label": "Enterprise",
-						"url": "https://mintlify.com/enterprise"
+						"url": "https://enterprise.awfixer.dev"
 					},
 					{
 						"label": "Request Preview",
-						"url": "https://mintlify.com/preview"
-					},
-					{
-						"label": "Integrations",
-						"url": "https://mintlify.com/docs/integrations/analytics/overview"
+						"url": "https://discord.gg/awfixer"
 					},
 					{
 						"label": "Templates",
-						"url": "https://github.com/mintlify/themes"
+						"url": "https://github.com/awfixer-org/awfixer-templates"
 					},
 					{
 						"label": "Wall of Love",
-						"url": "https://mintlify.com/love"
+						"url": "https://info.awfixer.dev/recognition"
 					}
 				]
 			},
@@ -303,19 +294,19 @@
 				"links": [
 					{
 						"label": "Careers",
-						"url": "https://mintlify.com/careers"
+						"url": "https://careers.awfixer.dev"
 					},
 					{
 						"label": "Blog",
-						"url": "https://mintlify.com/blog"
+						"url": "https://awfixer.blog"
 					},
 					{
 						"label": "Public Roadmap",
-						"url": "https://feedback.mintlify.com/roadmap"
+						"url": "https://roadmap.awfixer.dev"
 					},
 					{
 						"label": "Security",
-						"url": "https://mintlify.com/security/responsible-disclosure"
+						"url": "https://forum.awfixer.dev/security-discussion"
 					}
 				]
 			},
@@ -324,11 +315,11 @@
 				"links": [
 					{
 						"label": "Privacy Policy",
-						"url": "https://mintlify.com/legal/privacy"
+						"url": "https://privacy.awfixer.dev"
 					},
 					{
 						"label": "Terms of Service",
-						"url": "https://mintlify.com/legal/terms"
+						"url": "https://terms.awfixer.dev"
 					}
 				]
 			}
@@ -336,10 +327,7 @@
 	},
 	"analytics": {
 		"ga4": {
-			"measurementId": "G-RCYWHL7EQ7"
-		},
-		"koala": {
-			"publicApiKey": "pk_76a6caa274e800f3ceff0b2bc6b9b9d82ab8"
+			"measurementId": "G-HL5WY0BDLG"
 		}
 	}
 }
