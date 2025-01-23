@@ -6,6 +6,10 @@
 		"dark": "/favicon.svg",
 		"href": "https://docs.awfixer.dev"
 	},
+	"metadata": {
+		"og:image": "https://cdn.awfixer.dev/10.png"
+	},
+
 	"layout": "sidenav",
 	"favicon": "/favicon.svg",
 	"sidebar": {
