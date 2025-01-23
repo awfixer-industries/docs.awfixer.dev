@@ -17,18 +17,12 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:awfixer@pm.me",
-      "name": "Forum",
-      "url": "https://forum.awfixer.dev",
       "name": "Reddit",
       "url": "https://reddit.com/r/awfixer",
-      "name": "Matrix",
-      "url": "https://matrix.awfixer.dev"
     }
   ],
   "topbarCtaButton": {
-    "name": "Discord",
+    "name": "Support",
     "url": "https://discord.gg/awfixer"
   },
   "tabs": [
