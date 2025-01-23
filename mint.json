@@ -18,7 +18,13 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:awfixer@pm.me"
+      "url": "mailto:awfixer@pm.me",
+      "name": "Forum",
+      "url": "https://forum.awfixer.dev",
+      "name": "Reddit",
+      "url": "https://reddit.com/r/awfixer",
+      "Name": "Matrix",
+      "url": "https://matrix.awfixer.dev"
     }
   ],
   "topbarCtaButton": {
