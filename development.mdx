@@ -1,24 +1,24 @@
 ---
 title: 'Local Development'
-description: 'Preview changes locally to update your docs'
+description: 'Local Development of AWFixer Industries Projects - Using Blogger Dev as an example'
 ---
 
 <Info>
 
-**Prerequisite**: Please install Node.js (version 19 or higher) before proceeding.
+**Prerequisite**: Please install Node.js, pnpm, Golang and python3 before proceeding, for more packages needed, see the [Blogger Dev](https://github.com/awfixer-org/blogger-dev) Readme
 
 </Info>
 
-**Step 1**: Install Mintlify:
+**Step 1**: Clone Our Dev Repo
 
 <CodeGroup>
 
-  ```bash npm
-  npm i -g mintlify
+  ```bash ssh
+  git clone git@github.com:awfixer-org/blogger-dev
   ```
 
-  ```bash yarn
-  yarn global add mintlify
+  ```bash Github Cli - DEPRICATED
+  gh repo clone awfixer-org/blogger-dev
   ```
 
   ```bash pnpm
@@ -125,7 +125,7 @@ We suggest using extensions on your IDE to recognize and format MDX. If you're a
   </Accordion>
 
   <Accordion title="Issue: Encountering an unknown error">
-  
+
     Solution: Go to the root of your device and delete the \~/.mintlify folder. Afterwards, run `mintlify dev` again.
   </Accordion>
 </AccordionGroup>

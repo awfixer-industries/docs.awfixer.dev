@@ -12,7 +12,7 @@
     "thumbsRating": true
   },
   "layout": "sidenav",
-  "favicon": "public/favicon/favicon.png",
+  "favicon": "/favicon.svg",
   "sidebar": {
     "items": "border"
   },
@@ -74,11 +74,11 @@
   ],
   "navigation": [
     {
-      "group": "welome",
+      "group": "Introduction",
       "pages": [
         "welcome",
         {
-          "group": "Editing",
+          "group": "Developing",
           "icon": "pen-paintbrush",
           "pages": ["development", "web-editor"]
         },
@@ -332,11 +332,15 @@
         "links": [
           {
             "label": "Privacy Policy",
-            "url": "https://privacy.awfixer.dev"
+            "url": "https://legal.awfixer.dev/privacy"
           },
           {
             "label": "Terms of Service",
-            "url": "https://terms.awfixer.dev"
+            "url": "https://legal.awfixer.dev/tos"
+          },
+          {
+            "label": "Claims",
+            "url": "https://legal.awfixer.dev/claims"
           }
         ]
       }
