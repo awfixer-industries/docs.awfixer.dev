@@ -94,6 +94,22 @@
     {
       "group": "Changelog",
       "pages": ["changelog/overview"]
+    },
+    {
+      "group": "Blogger",
+      "pages": ["blogger/overview"]
+    },
+    {
+      "group": "AWFixerCDN",
+      "pages": ["cdn/overview"]
+    },
+    {
+      "group": "AWFixerMail",
+      "pages": ["mail/overview"]
+    },
+    {
+      "group": "AWFixerDNS",
+      "pages": ["dns/overview"]
     }
   ],
   "footer": {
