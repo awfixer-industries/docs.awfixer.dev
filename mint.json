@@ -62,6 +62,14 @@
     {
       "name": "Changelog",
       "url": "changelog"
+    },
+    {
+      "name": "Blog",
+      "url": "https://awfixer.blog"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/awfixer-org"
     }
   ],
   "navigation": [
@@ -80,127 +88,8 @@
       ]
     },
     {
-      "group": "Writing Content",
-      "pages": [
-        "page",
-        "text",
-        "image-embeds",
-        "list-table",
-        "code",
-        "reusable-snippets"
-      ]
-    },
-    {
-      "group": "API References",
-      "pages": [
-        "api-playground/overview",
-        {
-          "group": "OpenAPI",
-          "icon": "brackets-curly",
-          "pages": [
-            "api-playground/openapi/setup",
-            "api-playground/openapi/writing-openapi",
-            "api-playground/openapi/advanced-features"
-          ]
-        },
-        {
-          "group": "MDX",
-          "icon": "markdown",
-          "pages": [
-            "api-playground/mdx/configuration",
-            "api-playground/mdx/authentication"
-          ]
-        },
-        "api-playground/troubleshooting"
-      ]
-    },
-    {
-      "group": "Configurations",
-      "pages": [
-        "settings/custom-domain",
-        "settings/seo",
-        "settings/broken-links",
-        "settings/versioning",
-        "settings/add-members",
-        "settings/github",
-        "settings/gitlab",
-        "settings/preview-deployments"
-      ]
-    },
-    {
-      "group": "Advanced",
-      "pages": [
-        {
-          "icon": "code",
-          "group": "Custom Scripts",
-          "pages": ["advanced/custom/css", "advanced/custom/js"]
-        },
-        {
-          "icon": "folder",
-          "group": "Custom Subdirectory",
-          "pages": [
-            "advanced/subpath/cloudflare",
-            "advanced/subpath/route53-cloudfront",
-            "advanced/subpath/vercel"
-          ]
-        },
-        {
-          "icon": "user-lock",
-          "group": "Auth & Personalization",
-          "pages": [
-            "settings/authentication-personalization/authentication",
-            "settings/authentication-personalization/partial-authentication",
-            "settings/authentication-personalization/personalization",
-            "settings/authentication-personalization/authentication-vs-personalization",
-            {
-              "group": "Authentication Setup",
-              "pages": [
-                "settings/authentication-personalization/authentication-setup/choosing-a-handshake",
-                "settings/authentication-personalization/authentication-setup/password",
-                "settings/authentication-personalization/authentication-setup/jwt",
-                "settings/authentication-personalization/authentication-setup/oauth",
-                "settings/authentication-personalization/authentication-setup/mintlify"
-              ]
-            },
-            {
-              "group": "Personalization Setup",
-              "pages": [
-                "settings/authentication-personalization/personalization-setup/choosing-a-handshake",
-                "settings/authentication-personalization/personalization-setup/shared-session",
-                "settings/authentication-personalization/personalization-setup/jwt",
-                "settings/authentication-personalization/personalization-setup/oauth"
-              ]
-            },
-            "settings/authentication-personalization/sending-data"
-          ]
-        },
-        {
-          "icon": "plug",
-          "group": "Extensions",
-          "pages": ["advanced/widget/chat"]
-        },
-        {
-          "icon": "brackets-curly",
-          "group": "REST API",
-          "pages": [
-            "advanced/rest-api/overview",
-            {
-              "group": "Updates",
-              "pages": [
-                "advanced/rest-api/update/trigger",
-                "advanced/rest-api/update/status"
-              ]
-            },
-            {
-              "group": "Chat API",
-              "pages": [
-                "advanced/rest-api/chat/create-topic",
-                "advanced/rest-api/chat/generate-message"
-              ]
-            }
-          ]
-        }
-      ]
+      "group": "Rustfox",
+      "pages": ["rustfox/overview"]
     },
     {
       "group": "Changelog",

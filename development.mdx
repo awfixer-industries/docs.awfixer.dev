@@ -17,7 +17,7 @@ description: 'Local Development of AWFixer Industries Projects - Using [Blogger 
   git clone git@github.com:awfixer-org/blogger-dev
   ```
 
-  ```bash Github Cli - DEPRICATED
+  ```bash Github Cli - [ DEPRICATED Jan 2025 ]
   gh repo clone awfixer-org/blogger-dev
   ```
 
@@ -26,24 +26,29 @@ description: 'Local Development of AWFixer Industries Projects - Using [Blogger 
 **Step 2**: Idendify the needed files for working on the repo that you have selected
 
 <AccordionGroup>
-  <Accordion title="FAQ without Icon">
-    You can put other components inside Accordions.
-
-    ```java HelloWorld.java
-    class HelloWorld {
-        public static void main(String[] args) {
-            System.out.println("Hello, World!");
-        }
-    }
-    ```
-
+  <Accordion title="Identify Setup Scripts">
+      We do our best to ship setup scripts in multi-lang projects that cover setting up and enviorment
   </Accordion>
 
-  <Accordion title="FAQ with Icon" icon="alien-8bit">
-    Check out the [Accordion](/content/components/accordions) docs for all the supported props.
+  <Accordion title="Decide how to use the setup script">
+      if you are on an operating system like nixos, it may be best to use a flake enviorment, if your on a
+      different operating system, you might want to use Devcontainers or GitPod, all of which fit into our
+      development flow, which has been perfected to work on the project at hand
   </Accordion>
 
-  <Accordion title="FAQ without Icon">
-    Check out the [Accordion](/content/components/accordions) docs for all the supported props.
+  <Accordion title="Check out or creat the branch you would like to work on">
+      our security policies on our repos force you to make a PR in order to merge your changes
+      (don't worry, this is something that applies to everyone but the core-developer team,
+      in case they need to override the protections)
+  </Accordion>
+
+  <Accordion title="Make you changes">
+      make your changes to the codebase, ez
+  </Accordion>
+
+  <Accordion title="identify the `Git` Scripts">
+      We have a special way that we notate PRs and Commits, We use a set of scripts to accomplish this
+      - PRs need to have a conventional name like "feat:"
+      - Commits should be a list of modified files in the commit, so we can track down any new bugs
   </Accordion>
 </AccordionGroup>
