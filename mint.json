@@ -35,10 +35,10 @@
     }
   },
   "metadata": {
-    "og:image": "https://internal.cdn.awfixer.dev/internal/10.png",
+    "og:image": "https://raw.githubusercontent.com/awfixer-org/assets/refs/heads/main/Crow's%20Fave's/10.png",
     "twitter:card": "summary_large_image",
-    "twitter:image": "https://internal.cdn.awfixer.dev/internal/10.png",
-    "twitter:site:domain": "plain.com",
+    "twitter:image": "https://raw.githubusercontent.com/awfixer-org/assets/refs/heads/main/Crow's%20Fave's/10.png",
+    "twitter:site:domain": "awfixer.dev",
     "apple-mobile-web-app-title": "AWFixer Industries Technical Documentation"
   },
   "topbarLinks": [
