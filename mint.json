@@ -60,14 +60,6 @@
   },
   "tabs": [
     {
-      "name": "Components",
-      "url": "content"
-    },
-    {
-      "name": "Integrations",
-      "url": "integrations"
-    },
-    {
       "name": "Changelog",
       "url": "changelog"
     }
@@ -208,69 +200,6 @@
             }
           ]
         }
-      ]
-    },
-    {
-      "group": "Analytics",
-      "pages": [
-        "integrations/analytics/overview",
-        "integrations/analytics/amplitude",
-        "integrations/analytics/clearbit",
-        "integrations/analytics/fathom",
-        "integrations/analytics/google-analytics",
-        "integrations/analytics/google-tag-manager",
-        "integrations/analytics/heap",
-        "integrations/analytics/hotjar",
-        "integrations/analytics/koala",
-        "integrations/analytics/logrocket",
-        "integrations/analytics/mixpanel",
-        "integrations/analytics/pirsch",
-        "integrations/analytics/plausible",
-        "integrations/analytics/posthog"
-      ]
-    },
-    {
-      "group": "SDKs",
-      "pages": ["integrations/sdks/speakeasy", "integrations/sdks/stainless"]
-    },
-    {
-      "group": "Support",
-      "pages": [
-        "integrations/support/overview",
-        "integrations/support/intercom",
-        "integrations/support/front"
-      ]
-    },
-    {
-      "group": "Privacy",
-      "pages": ["integrations/privacy/overview", "integrations/privacy/osano"]
-    },
-    {
-      "group": "Components",
-      "pages": [
-        "content/components/accordions",
-        "content/components/accordion-groups",
-        "content/components/callouts",
-        "content/components/cards",
-        "content/components/card-groups",
-        "content/components/code",
-        "content/components/code-groups",
-        "content/components/frames",
-        "content/components/icons",
-        "content/components/mermaid-diagrams",
-        "content/components/steps",
-        "content/components/tabs",
-        "content/components/tooltips",
-        "content/components/update"
-      ]
-    },
-    {
-      "group": "API Components",
-      "pages": [
-        "content/components/params",
-        "content/components/responses",
-        "content/components/expandables",
-        "content/components/sticky-examples"
       ]
     },
     {
