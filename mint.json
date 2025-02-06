@@ -70,6 +70,14 @@
     {
       "name": "Github",
       "url": "https://github.com/awfixer-org"
+    },
+    {
+      "name": "Github-Dev",
+      "url": "https://github.com/orgs/awfixer-org/repositories?q=visibility%3Apublic+archived%3Afalse+-dev"
+    },
+    {
+      "name": "Gitlab",
+      "url": "https://gitlab.com/awfixer-org"
     }
   ],
   "navigation": [
@@ -80,7 +88,7 @@
         {
           "group": "Developing",
           "icon": "pen-paintbrush",
-          "pages": ["development", "web-editor"]
+          "pages": ["development", "contributing"]
         },
         "settings/global",
         "settings/navigation",

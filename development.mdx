@@ -1,15 +1,45 @@
 ---
 title: 'Local Development'
-description: 'Local Development of AWFixer Industries Projects - Using [Blogger Dev](https://github.com/awfixer-org/blogger-dev) as an example'
+description: 'Local Development of AWFixer Industries Projects - join the [Discord](https://discord.gg/awfixer) to Discuss'
 ---
 
 <Info>
 
-**Prerequisite**: Please install Node.js, pnpm, Golang and python3 before proceeding, for more packages needed, see the [Blogger Dev](https://github.com/awfixer-org/blogger-dev) Readme
+**Prerequisite**: You need a [Github](https://github.com) Account, setup with [SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) (we require commits to be signed and verified) as well as a secure method of Multi-Factory Authentication, for information on the packages needed, see the [Github Organization](https://github.com/awfixer-org) Readme
 
 </Info>
 
-**Step 1**: Clone Our Dev Repo
+<h1>
+    We Have an extremely specific dev setup, ensuring that as development continues we are always on track for any pipelines or develery schedules
+</h1>
+
+<p>
+This process involves a lot of automation, as well as 3+ different platforms. The Pipeline and Cycle is layed out below
+</p>
+
+<h3>
+    Stop One - Github Dev Repos
+</h3>
+
+<AccordionGroup>
+ <Accordion title="Github Dev Repos Purpose">
+    The dev Repos are the inital gate in our infrastructure, allowing the code to be inspected and tested when it first joins the codebase
+</Accordion>
+<Accordion title="Code Signing">
+    When the code is commited, the first step is to verify that it is signed and authenticated. If the code is not tagged as verifed, it will be rejected
+</Accordion>
+<Accordion title="Pull Requests only please">
+    We do not accept code that is not submitted in the form of a properly formatted Pull Request to our Development Repos, this ensures that all code is inspected the same way
+    and allows the workflows to check for any bugs before we move it along in the proccess of development
+</Accordion>
+<Accordion title="No AI/LLM Generated Code Please">
+    While we do use AI and LLMs to inspect the code, we do not accept any Generated code. Pull requests found to have Generated code in them will be closed and the Contributer will be
+    forbidden from opening further pull requests and issues
+</Accordion>
+</AccordionGroup>
+
+
+**Step 1**: Connect to our Github Repos
 
 <CodeGroup>
 
@@ -23,32 +53,41 @@ description: 'Local Development of AWFixer Industries Projects - Using [Blogger 
 
 </CodeGroup>
 
-**Step 2**: Idendify the needed files for working on the repo that you have selected
+**Step 2**: Decide on your preffered method of configuring your enviorment, based on the following choices
+
+<Info>
+
+**IMPORTANT** Using one of the following makes it easier to follow documentation, and easier to get support with your work
+
+</Info>
 
 <AccordionGroup>
-  <Accordion title="Identify Setup Scripts">
-      We do our best to ship setup scripts in multi-lang projects that cover setting up and enviorment
+  <Accordion title="DevContaienr">
+      <a href="https://devcontainers.github.io/">DevContainers</a> are an industry standard for standardized code enviorments, look for a .devcontainer.yml file
+      in the repo to initialize your dev container
   </Accordion>
 
-  <Accordion title="Decide how to use the setup script">
-      if you are on an operating system like nixos, it may be best to use a flake enviorment, if your on a
-      different operating system, you might want to use Devcontainers or GitPod, all of which fit into our
-      development flow, which has been perfected to work on the project at hand
+  <Accordion title="Github Codespaces">
+      <a href="https://github.com/features/codespaces">Github Codespaces</a> can be accessed using the `<code>` button at the top right of the repo and follow the devcontainer standard
   </Accordion>
 
-  <Accordion title="Check out or creat the branch you would like to work on">
-      our security policies on our repos force you to make a PR in order to merge your changes
-      (don't worry, this is something that applies to everyone but the core-developer team,
-      in case they need to override the protections)
+  <Accordion title="Devpod">
+      <a href="https://devpod.sh">Devpod</a> Devpods allow you to use Dev Containers in the cloud from your local machine in many popular IDEs
   </Accordion>
 
-  <Accordion title="Make you changes">
-      make your changes to the codebase, ez
+  <Accordion title="DevBox">
+      <a href="https://www.jetify.com/devbox">DevBox</a> Dev Box are Command line based isolated enviorments
   </Accordion>
 
-  <Accordion title="identify the `Git` Scripts">
-      We have a special way that we notate PRs and Commits, We use a set of scripts to accomplish this
-      - PRs need to have a conventional name like "feat:"
-      - Commits should be a list of modified files in the commit, so we can track down any new bugs
+  <Accordion title="Nix Flake">
+      <a href="https://nix.dev/concepts/flakes">Nix Flakes</a> nix flake support for our repos is a work in progress
+  </Accordion>
+
+  <Accordion title="GitPod">
+      <a href="https://gitpod.io">GitPod</a> Gitpods are virtually self-hosted Devpods, allowing you to remotely store a repos development enviorment
+  </Accordion>
+
+  <Accordion title="Docker/Podman">
+      This is not an officially supported method at this time
   </Accordion>
 </AccordionGroup>
